@@ -1,10 +1,11 @@
 
-body{}
-section{}
-div{}
-nav{}
 
 .logo {
   font-size: 20px;
 }
 
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
+
+  .bodyStyle{width:1000px; margin:0 auto; background-color:#fff;}
