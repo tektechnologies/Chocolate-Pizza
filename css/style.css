@@ -1,26 +1,48 @@
-
-
-
-
 .logo {
-  font-size: 20px;
+    font-size: 30px;
+    font-family: 'Arizonia', cursive;
+    margin: 0;
+    padding: 0;
+    
 }
+.logoText p {
+float: left;
+margin: 0;
+padding: 0;
 
 
+}
 .links {
-  float: right;
+    float: right;
 }
-
-
+.bodyStyle{
+    width:901px;
+    margin:0 auto;
+    background-color:#fff;
+}
+ul{
+   float: left;
+    list-style: none;
+}
+section {
+   clear: both;
+    overflow: hidden;
+}
+.recipeBackground {
+    background-image: url("../img/list-bg.png");
+}
 input[type=checkbox]:checked + label.strikethrough{
     text-decoration: line-through;
-  }
+}
 
-  .bodyStyle{width:961px; margin:0 auto; background-color:#fff;}
 
-  ul{float: left; list-style: none;}
- 
-  section {clear: both; overflow: hidden;}
+.imageClass{float: left;}
+.navBar{float: right;}
+
+
+
+
+
 
   .recipeBackground { 
       
@@ -44,4 +66,3 @@ input[type=checkbox]:checked + label.strikethrough{
      padding-bottom: 10px;
      
     }
-
