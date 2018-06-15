@@ -1,5 +1,6 @@
 
-body{}
+body{
+}
 section{}
 div{}
 nav{}
@@ -8,5 +9,9 @@ section h1 {
 }
 .logo {
   font-size: 20px;
+}
+
+.links {
+  float: right;
 }
 
