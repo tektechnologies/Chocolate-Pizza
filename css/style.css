@@ -1,17 +1,20 @@
 
-body{
-}
-section{}
-div{}
-nav{}
-section h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+
+
 .logo {
   font-size: 20px;
 }
 
+
 .links {
   float: right;
 }
+
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
+
+  .bodyStyle{width:1000px; margin:0 auto; background-color:#fff;}
 
