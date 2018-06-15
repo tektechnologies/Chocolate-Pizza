@@ -1,12 +1,20 @@
-.logo {
+.logo  {
+    float: left;
     font-size: 30px;
     font-family: 'Arizonia', cursive;
     margin: 0;
     padding: 0;
     
 }
+.pText {float:left;
+    font-size: 10px;
+}
+header p {
+    font-size: 10px;
+}
 .logoText p {
 float: left;
+
 margin: 0;
 padding: 0;
 
@@ -36,7 +44,7 @@ input[type=checkbox]:checked + label.strikethrough{
 }
 
 
-.imageClass{float: left;}
+.imageClass{float: left;     }
 .navBar{float: right;}
 
 
@@ -45,8 +53,10 @@ input[type=checkbox]:checked + label.strikethrough{
 
 
   .recipeBackground { 
-      
-    background-image: url("../img/list-bg.png");}
+    box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.75);
+    background-image: url("../img/list-bg.png");
+margin-bottom: 75px;
+}
 
     h1 {
       font-family: Arial, Helvetica, sans-serif;
@@ -55,14 +65,17 @@ input[type=checkbox]:checked + label.strikethrough{
 
     .button {
       background-color: orangered;
-      display: inline;
+    
       padding: 10px;
       border: 1px solid;
       color: white;
+      float:  right;
     }
 
     .buttontext {
-     display: inline;
+     
      padding-bottom: 10px;
      
     }
+.imgGirl img {float: left;}
+footer{text-align: center;}
