@@ -16,5 +16,12 @@ input[type=checkbox]:checked + label.strikethrough{
     text-decoration: line-through;
   }
 
-  .bodyStyle{width:1000px; margin:0 auto; background-color:#fff;}
+  .bodyStyle{width:961px; margin:0 auto; background-color:#fff;}
 
+  ul{float: left; list-style: none;}
+ 
+  section {clear: both; overflow: hidden;}
+
+  .recipeBackground { 
+      
+    background-image: url("../img/list-bg.png");}
